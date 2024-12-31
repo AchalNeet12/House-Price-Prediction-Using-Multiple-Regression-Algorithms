@@ -1,13 +1,13 @@
 # House Price Prediction Using Multiple Regression Algorithms
 ---
 ## 📜 Project Description
-   This project aims to predict house prices based on various features such as average area income, house age, number of rooms, bedrooms, and area population. Using regression algorithms, the system provides 
-   predictions and evaluates the models based on metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²). A Flask-based web application is developed to allow users to input house 
-   data and select a regression model for price prediction.
+- This project aims to predict house prices based on various features such as average area income, house age, number of rooms, bedrooms, and area population. Using regression algorithms, the system provides 
+  predictions and evaluates the models based on metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²). A Flask-based web application is developed to allow users to input house 
+  data and select a regression model for price prediction.
 ---
 ## 📝 Overview
-   The project demonstrates a comprehensive machine learning workflow, from data preprocessing and model training to deployment using Flask. It evaluates 13 regression models and stores their results for 
-   analysis. The web application serves as a user-friendly interface, enabling predictions using pre-trained models.
+- The project demonstrates a comprehensive machine learning workflow, from data preprocessing and model training to deployment using Flask. It evaluates 13 regression models and stores their results for 
+  analysis. The web application serves as a user-friendly interface, enabling predictions using pre-trained models.
 ---
 ## 🔍 Dataset
 - **Source:** The dataset used is `USA_Housing.csv.`
@@ -35,55 +35,55 @@
  - CSV for data storage and logging
 ---
 ## ⚙ Algorithms Used
-1. **Linear Regression**
+`1. **Linear Regression**`
   - Models the relationship between independent variables and a continuous target variable.
   - Simple and interpretable, but assumes a linear relationship.
     
-2. **Ridge Regression**
+`2. **Ridge Regression**`
   - Adds L2 regularization to linear regression to prevent overfitting.
   - Effective when there are many correlated features.
     
-3. **Lasso Regression**
+`3. **Lasso Regression**`
   - Uses L1 regularization to shrink some coefficients to zero, performing feature selection.
   -Helps in high-dimensional datasets by selecting only relevant features.
 
-4. **ElasticNet**
+`4. **ElasticNet**`
   - Combines L1 and L2 regularization, balancing the benefits of Lasso and Ridge.
   - Works well when there are correlated features.
     
-5. **Polynomial Regression**
+`5. **Polynomial Regression**`
   - Extends linear regression by adding polynomial terms to model non-linear relationships.
   - Prone to overfitting if too many polynomial features are added.
     
-6. **SGD Regressor**
+`6. **SGD Regressor**`
   - Uses iterative gradient descent for optimizing linear models.
   - Efficient for large datasets but requires careful parameter tuning.
     
-7. **ANN** (Artificial Neural Network)
+`7. **ANN** (Artificial Neural Network)`
   - Learns complex, non-linear relationships through multiple layers of neurons.
   - Highly flexible, but computationally intensive.
     
-8. **Random Forest Regressor**
+`8. **Random Forest Regressor**`
   - An ensemble method that uses multiple decision trees and averages their predictions.
   - Robust to overfitting and handles complex relationships.
     
-9. **SVR** (Support Vector Regressor)
+`9. **SVR** (Support Vector Regressor)`
   - Uses Support Vector Machine principles for regression with a margin of tolerance.
   - Effective for high-dimensional data but requires careful tuning.
     
-10. **LightGBM**
+`10. **LightGBM**`
   - A gradient boosting method optimized for speed and efficiency.
   - Handles large datasets well and supports categorical features.
     
-11. **XGBoost**
+`11. **XGBoost**`
   - A high-performance gradient boosting algorithm that minimizes overfitting.
   - Highly accurate, especially on structured/tabular data.
     
-12. **KNN Regressor** (K-Nearest Neighbors)
+`12. **KNN Regressor** (K-Nearest Neighbors)`
   - Predicts the target by averaging the values of the k-nearest neighbors.
   - Simple but computationally expensive for large datasets.
     
-13. **Huber Regressor**
+`13. **Huber Regressor**`
   - Combines squared loss for small errors and absolute loss for large errors, making it robust to outliers.
   - Works well with noisy data.
 ---
