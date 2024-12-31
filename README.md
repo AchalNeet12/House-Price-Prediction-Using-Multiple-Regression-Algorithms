@@ -1,10 +1,13 @@
 # House Price Prediction Using Multiple Regression Algorithms
 ---
 ## 📜 Project Description
-This project aims to predict house prices based on various features such as average area income, house age, number of rooms, bedrooms, and area population. Using regression algorithms, the system provides predictions and evaluates the models based on metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²). A Flask-based web application is developed to allow users to input house data and select a regression model for price prediction.
+- This project aims to predict house prices based on various features such as average area income, house age, number of rooms, bedrooms, and area population. Using regression algorithms, the system provides 
+  predictions and evaluates the models based on metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²). A Flask-based web application is developed to allow users to input house 
+  data and select a regression model for price prediction.
 ---
 ## 📝 Overview
-The project demonstrates a comprehensive machine learning workflow, from data preprocessing and model training to deployment using Flask. It evaluates 13 regression models and stores their results for analysis. The web application serves as a user-friendly interface, enabling predictions using pre-trained models.
+- The project demonstrates a comprehensive machine learning workflow, from data preprocessing and model training to deployment using Flask. It evaluates 13 regression models and stores their results for 
+  analysis. The web application serves as a user-friendly interface, enabling predictions using pre-trained models.
 ---
 ## 🔍 Dataset
 - **Source:** The dataset used is `USA_Housing.csv.`
