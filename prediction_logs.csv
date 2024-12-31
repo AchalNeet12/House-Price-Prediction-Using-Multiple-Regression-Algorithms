@@ -1,0 +1,2 @@
+Avg. Area Income,Avg. Area House Age,Avg. Area Number of Rooms,Avg. Area Number of Bedrooms,Area Population,Model,Prediction
+45678.0,98765.0,67890.0,34567.0,56789.0,XGBoost,1742148.1
